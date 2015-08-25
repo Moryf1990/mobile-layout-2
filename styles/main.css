@@ -1,0 +1,195 @@
+header {
+	height: 3em;
+	background: #0070A4;
+	color: white;
+}
+
+.big {
+	height: 3em;
+	background: #118BC0;
+	margin-right: 5em;
+}
+
+.smaller {
+	height: 2.5em;
+	background: white;
+	margin-right: 12em;
+}
+
+
+.first {
+	height: 30em;
+	background: #33404F;
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	padding-top: 3em;
+
+}
+
+.link {
+	font-size: 35px;
+	color: white;
+	padding-top: 1em;
+}
+
+.blue2 {
+	background: #018DBA;
+	border: solid 12px;
+	border-color: #212934;
+	height: 40px;
+	margin-top: 35px;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	border-radius: 4px;
+	padding: 50px;
+}
+
+.small {
+	background: white;
+	height: 0.5em;
+	margin-top: 5em;
+	margin-right: 4.5em;
+	margin-left: 4.5em;
+}
+
+.big1 {
+	background: white;
+	height: 2em;
+	margin-top: 4em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.big2 {
+	background: white;
+	height: 2em;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.big3 {
+	background: white;
+	height: 2em;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.light {
+	background: #E8F0F5;
+	height: 17em;
+	margin-top: 0;
+}
+
+.grey {
+	background: #D1D3D7;
+	height: 130em;
+	padding: 2em;
+}
+
+.white1 {
+	background: white;
+	height: 20em;
+	margin-top: 1em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.white2 {
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.white3  {
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.white4 {
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.white5 {
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.white6 {
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	margin-bottom: 1.5em;
+}
+
+.lightblue {
+	background: #E8F0F5;
+	height: 17em;
+	padding: 3.5em;
+}
+
+.darkblue {
+	background: #018DBA;
+	height: 5em;
+	margin-top: 11em;
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-bottom: 1em;
+}
+
+.black {
+	background: black;
+	padding: 2em;
+}
+
+.words {
+	background: black;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	line-height: 3em;
+}
+
+.words2  {
+	background: black;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding-bottom: 4em;
+}
+
+.white {
+	background: white;
+	height: 2em;
+	margin-top: 0.5em;
+	margin-left: 11em;
+	margin-right: 11em;
+	margin-bottom: 1.5em;
+
+}
+
+.checkers {
+	background: #E5E5E5;
+	height: 2em;
+}
