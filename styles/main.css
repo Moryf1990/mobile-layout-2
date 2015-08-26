@@ -1,21 +1,33 @@
 header {
-	height: 3em;
-	background: #0070A4;
-	color: white;
+	background: #008CBC;
+	color: black;
+	padding: 5px 10px;
+	overflow: hidden;
 }
 
-.big {
-	height: 3em;
-	background: #118BC0;
-	margin-right: 5em;
-}
 
-.smaller {
+.small-white-box {
 	height: 2.5em;
-	background: white;
-	margin-right: 12em;
+	width: 40px;
+	background: #ffffff;
+	float: left;
+	margin-right: 15px;
 }
 
+.long-white-box {
+	float: left;
+	background: #ffffff;
+	width: 200px;
+	height: 2.5em;
+	
+}
+
+.login {
+	float: right;
+	height: 2.5em;
+	width: 2.5em;
+	background: #0071A0;
+}
 
 .first {
 	height: 30em;
@@ -60,6 +72,8 @@ header {
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 }
+
+
 
 .big2 {
 	background: white;
