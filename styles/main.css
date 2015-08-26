@@ -16,17 +16,23 @@ header {
 
 .long-white-box {
 	float: left;
-	background: #ffffff;
+	background: #008CBC;
 	width: 200px;
 	height: 2.5em;
-	
+	color: white;
+	text-align: left;
+	line-height: 2.5em;
 }
+
 
 .login {
 	float: right;
 	height: 2.5em;
-	width: 2.5em;
+	width: 3em;
 	background: #0071A0;
+	color: white;
+	text-align: center;
+	line-height: 2.5em;
 }
 
 .first {
@@ -36,7 +42,6 @@ header {
 	font-size: 55px;
 	text-align: center;
 	padding-top: 3em;
-
 }
 
 .link {
@@ -75,12 +80,53 @@ header {
 
 
 
+.grey2 {
+	height: 2em;
+	background: #33404F;
+	width: 5em;
+	float: right;
+	line-height: 1em;
+}
+
+.grey2 div {
+	font-size: 0.5em;
+	line-height: 1em;
+}
+
+div.smallfont  {
+	font-size: 0.3em;
+	margin-top: 2em;
+	color: grey;
+}
+
+
 .big2 {
 	background: white;
 	height: 2em;
 	margin-top: 1em;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
+}
+
+
+
+.grey4 {
+	height: 2em;
+	background: #33404F;
+	width: 4em;
+	float: right;
+	width: 5em;
+}
+
+.grey4 div {
+	font-size: 0.5em;
+	line-height: 1em;
+}
+
+div.smallfont2 {
+	font-size: 0.3em;
+	margin-top: 2em;
+	color: grey;
 }
 
 .big3 {
@@ -91,15 +137,42 @@ header {
 	margin-right: 1.5em;
 }
 
+
+
+.grey6 {
+	height: 2em;
+	background: #33404F;
+	width: 4em;
+	float: right;
+	width: 5em;
+}
+
+.grey6 div {
+	font-size: 0.5em;
+	line-height: 1em;
+}
+
+div.smallfont3 {
+	font-size: 0.3em;
+	margin-top: 2em;
+	color: grey;
+}
+
 .light {
 	background: #E8F0F5;
 	height: 17em;
 	margin-top: 0;
 }
 
+.light div {
+	font-size: 2.85em;
+	line-height: 1.2em;
+	color: #33404F;
+}
+
 .grey {
 	background: #D1D3D7;
-	height: 130em;
+	height: 150em;
 	padding: 2em;
 }
 
@@ -110,6 +183,35 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding: 2em;
+}
+
+.greya {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.greyb {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.greyc {
+	background: white;
+	color: #344051;
+	margin-top: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1em;
 }
 
 .white2 {
@@ -119,7 +221,39 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding: 2em;
 }
+
+.greyd {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.greye {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.greyf {
+	background: white;
+	color: #344051;
+	margin-top: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1em;
+}
+
+
+
 
 .white3  {
 	background: white;
@@ -128,7 +262,37 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding: 2em;
 }
+
+.greyg {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.greyh {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.greyi {
+	background: white;
+	color: #344051;
+	margin-top: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1em;
+}
+
 
 .white4 {
 	background: white;
@@ -137,6 +301,35 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding: 2em;
+}
+
+.greyj {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.greyk {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.greyl {
+	background: white;
+	color: #344051;
+	margin-top: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1em;
 }
 
 .white5 {
@@ -146,7 +339,38 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding: 2em;
 }
+
+.greym {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+.greyn {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+.greyo {
+	background: white;
+	color: #344051;
+	margin-top: 3em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1em;
+}
+
 
 .white6 {
 	background: white;
@@ -155,21 +379,69 @@ header {
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding-top: 2em;
 }
+
+.greyp {
+	background: #C6D2D7;
+	height: 4em;
+	margin-top: 1em;
+	margin-left: 11.9em;
+	margin-right: 11.9em;
+}
+
+.greyq {
+	background: white;
+	color: #344051;
+	margin-right: 0em;
+	margin-left: 0em;
+	margin-top: 1em;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+.greyr {
+	background: white;
+	color: #344051;
+	margin-top: 1em;
+	margin-right: 0em;
+	margin-left: 0em;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
 
 .lightblue {
 	background: #E8F0F5;
-	height: 17em;
+	height: 14em;
 	padding: 3.5em;
+	margin-top: 0em;
+}
+
+.lightblue div {
+	color: #344051;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
 }
 
 .darkblue {
 	background: #018DBA;
-	height: 5em;
-	margin-top: 11em;
-	margin-left: 6em;
-	margin-right: 6em;
+	height: 4em;
+	margin-top: 4em;
+	margin-left: 2em;
+	margin-right: 2em;
 	margin-bottom: 1em;
+}
+
+.darkblue div {
+	color: white;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
+	padding-top: .5em;
 }
 
 .black {
@@ -207,3 +479,10 @@ header {
 	background: #E5E5E5;
 	height: 2em;
 }
+
+.create div {
+	color: white;
+}
+
+
+
