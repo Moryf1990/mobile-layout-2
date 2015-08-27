@@ -41,8 +41,9 @@ header {
 	color: white;
 	font-size: 55px;
 	text-align: center;
-	padding-top: 3em;
+	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true); 
 }
+
 
 .link {
 	font-size: 35px;
@@ -79,11 +80,10 @@ header {
 }
 
 
-
 .grey2 {
 	height: 2em;
 	background: #33404F;
-	width: 5em;
+	width: 7em;
 	float: right;
 	line-height: 1em;
 }
@@ -113,9 +113,8 @@ div.smallfont  {
 .grey4 {
 	height: 2em;
 	background: #33404F;
-	width: 4em;
+	width: 7em;
 	float: right;
-	width: 5em;
 }
 
 .grey4 div {
@@ -142,9 +141,8 @@ div.smallfont2 {
 .grey6 {
 	height: 2em;
 	background: #33404F;
-	width: 4em;
+	width: 7em;
 	float: right;
-	width: 5em;
 }
 
 .grey6 div {
@@ -190,8 +188,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greyb {
@@ -228,8 +229,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greye {
@@ -269,8 +273,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greyh {
@@ -308,8 +315,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greyk {
@@ -346,8 +356,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greyn {
@@ -386,8 +399,11 @@ div.smallfont3 {
 	background: #C6D2D7;
 	height: 4em;
 	margin-top: 1em;
-	margin-left: 11.9em;
-	margin-right: 11.9em;
+	margin-left: 10em;
+	margin-right: 10em;
+	border-radius: 50%;
+	padding-left: 1.5em;
+	padding-top: 1em;
 }
 
 .greyq {
@@ -469,9 +485,10 @@ div.smallfont3 {
 	background: white;
 	height: 2em;
 	margin-top: 0.5em;
-	margin-left: 11em;
-	margin-right: 11em;
-	margin-bottom: 1.5em;
+	margin-left: 4em;
+	margin-right: 7em;
+	margin-bottom: 1em;
+	padding-right: 4em;
 
 }
 
