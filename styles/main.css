@@ -1,15 +1,32 @@
-header {
+header  {
 	background: #008CBC;
-	color: black;
+	/*color: black;*/
 	padding: 5px 10px;
 	overflow: hidden;
+	padding-bottom: 1em;
+	margin-top: -0.5em;
+	padding-right: 0;
+	height: 3.5em;
 }
 
+.body {
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.span {
+	color: #7DBFDC;
+}
 
 .small-white-box {
-	height: 2.5em;
-	width: 40px;
-	background: #ffffff;
+	height: 3.7em;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/logo.png?raw=true");
+	width: 60px;
+	margin-top: 0.5em;
+	/*background: #ffffff;*/
 	float: left;
 	margin-right: 15px;
 }
@@ -18,7 +35,9 @@ header {
 	float: left;
 	background: #008CBC;
 	width: 200px;
+	padding-top: 0.25em;
 	height: 2.5em;
+	font-size: 1.5em;
 	color: white;
 	text-align: left;
 	line-height: 2.5em;
@@ -27,40 +46,63 @@ header {
 
 .login {
 	float: right;
-	height: 2.5em;
-	width: 3em;
+	height: 4em;
+	width: 10%;
 	background: #0071A0;
 	color: white;
+	padding-top: 1em;
 	text-align: center;
 	line-height: 2.5em;
 }
 
 .first {
-	height: 30em;
-	background: #33404F;
+	padding-top: 4em;
+	height: 100%;
+	padding-bottom: 2em;
+	/*background: #33404F;*/
 	color: white;
 	font-size: 55px;
 	text-align: center;
-	background-image: url(https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true); 
+	background-size: 100%;
+	background-image: url("../images/crowd.jpg"); 
 }
 
 
-.link {
-	font-size: 35px;
+.link1 {
+	font-size: 30px;
+	margin-top: 1em;
 	color: white;
 	padding-top: 1em;
+	margin-left: 3.5em;
+	margin-right: 3.5em;
+}
+
+
+.link2 {
+	font-size: 30px;
+	color: white;
+	margin-left: 3.5em;
+	margin-right: 3.5em;
 }
 
 .blue2 {
 	background: #018DBA;
-	border: solid 12px;
-	border-color: #212934;
-	height: 40px;
-	margin-top: 35px;
-	margin-right: 1.5em;
-	margin-left: 1.5em;
-	border-radius: 4px;
-	padding: 50px;
+	height: 2em;
+	text-align: center;
+	font-size: 1em;
+	/*margin-top: 25px;*/
+	/*margin-right: 1.5em;*/
+	box-shadow: 0 0 0 .4em rgba(0,0,0,.2);
+	/*margin-left: 1.5em;*/
+	/*padding: 50px;*/
+	/*padding-left: 2em;
+	padding-right: 2em;*/
+	/*width: 100%;*/
+	margin-right: 3em;
+	padding-bottom: 0.1em;
+	padding-top: 0.5em;
+	margin-top: 1.5em;
+	margin-left: 3em;
 }
 
 .small {
@@ -71,8 +113,13 @@ header {
 	margin-left: 4.5em;
 }
 
+.fa {
+	color: #fff;
+	margin-top: 10em;
+}
+
 .big1 {
-	background: white;
+	/*background: white;*/
 	height: 2em;
 	margin-top: 4em;
 	margin-left: 1.5em;
@@ -82,10 +129,13 @@ header {
 
 .grey2 {
 	height: 2em;
-	background: #33404F;
+	/*background: #33404F;*/
 	width: 7em;
-	float: right;
+	/*float: right;*/
+	margin-left: 30%;
 	line-height: 1em;
+	background-image: url("../images/tablet.png");
+	background-repeat: no-repeat;
 }
 
 .grey2 div {
@@ -96,12 +146,12 @@ header {
 div.smallfont  {
 	font-size: 0.3em;
 	margin-top: 2em;
-	color: grey;
+	color: #fff;
 }
 
 
 .big2 {
-	background: white;
+	/*background: white;*/
 	height: 2em;
 	margin-top: 1em;
 	margin-left: 1.5em;
@@ -112,9 +162,12 @@ div.smallfont  {
 
 .grey4 {
 	height: 2em;
-	background: #33404F;
+	background-repeat: no-repeat;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/newspaper.png?raw=true");
+	/*background: #33404F;*/
 	width: 7em;
-	float: right;
+	margin-left: 30%;
+	/*float: right;*/
 }
 
 .grey4 div {
@@ -125,11 +178,11 @@ div.smallfont  {
 div.smallfont2 {
 	font-size: 0.3em;
 	margin-top: 2em;
-	color: grey;
+	color: #fff;
 }
 
 .big3 {
-	background: white;
+	/*background: white;*/
 	height: 2em;
 	margin-top: 1em;
 	margin-left: 1.5em;
@@ -140,9 +193,12 @@ div.smallfont2 {
 
 .grey6 {
 	height: 2em;
-	background: #33404F;
+	background-repeat: no-repeat;
+	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/paint-brush.png?raw=true");
+	/*background: #33404F;*/
 	width: 7em;
-	float: right;
+	/*float: right;*/
+	margin-left: 30%;
 }
 
 .grey6 div {
@@ -153,12 +209,13 @@ div.smallfont2 {
 div.smallfont3 {
 	font-size: 0.3em;
 	margin-top: 2em;
-	color: grey;
+	color: #fff;
 }
 
 .light {
 	background: #E8F0F5;
-	height: 17em;
+	height: 100%;
+	padding-bottom: 2em;
 	margin-top: 0;
 }
 
@@ -166,6 +223,8 @@ div.smallfont3 {
 	font-size: 2.85em;
 	line-height: 1.2em;
 	color: #33404F;
+	padding-top: 0.5em;
+	text-align: center;
 }
 
 .grey {
@@ -187,12 +246,12 @@ div.smallfont3 {
 .greya {
 	background: #C6D2D7;
 	height: 4em;
-	margin-top: 1em;
-	margin-left: 8em;
-	margin-right: 8em;
+	width: 62px;
+	margin: 0 auto;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	padding-right: 0.5em;
 }
 
 .greyb {
@@ -228,12 +287,12 @@ div.smallfont3 {
 .greyd {
 	background: #C6D2D7;
 	height: 4em;
-	margin-top: 1em;
-	margin-left: 8em;
-	margin-right: 8em;
+	width: 62px;
+	margin: 0 auto;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	padding-right: 0.5em;
 }
 
 .greye {
@@ -272,12 +331,12 @@ div.smallfont3 {
 .greyg {
 	background: #C6D2D7;
 	height: 4em;
-	margin-top: 1em;
-	margin-left: 8em;
-	margin-right: 8em;
+	width: 62px;
+	margin: auto;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	padding-right: 0.5em;
 }
 
 .greyh {
@@ -314,12 +373,15 @@ div.smallfont3 {
 .greyj {
 	background: #C6D2D7;
 	height: 4em;
+	width: 62px;
 	margin-top: 1em;
 	margin-left: 8em;
 	margin-right: 8em;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	margin: auto;
+	padding-right: 0.5em;
 }
 
 .greyk {
@@ -355,12 +417,15 @@ div.smallfont3 {
 .greym {
 	background: #C6D2D7;
 	height: 4em;
+	width: 62px;
 	margin-top: 1em;
 	margin-left: 8em;
 	margin-right: 8em;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	margin: auto;
+	padding-right: 0.5em;
 }
 
 .greyn {
@@ -386,24 +451,36 @@ div.smallfont3 {
 
 
 .white6 {
-	background: white;
+	/*background: white;
 	height: 20em;
 	margin-top: 0.5em;
 	margin-left: 0.5;
 	margin-right: 0.5;
 	margin-bottom: 1.5em;
+	padding-top: 2em;*/
+	background: white;
+	height: 20em;
+	margin-top: 0.5em;
+	margin-left: 0.5;
+	margin-right: 0.5;
+	padding-bottom: 2em;
+	margin-bottom: 1.5em;
 	padding-top: 2em;
+
 }
 
 .greyp {
 	background: #C6D2D7;
 	height: 4em;
+	width: 62px;
 	margin-top: 1em;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 8em;
+	margin-right: 8em;
 	border-radius: 50%;
 	padding-left: 1.5em;
 	padding-top: 1em;
+	margin: auto;
+	padding-right: 0.5em;
 }
 
 .greyq {
@@ -420,35 +497,37 @@ div.smallfont3 {
 .greyr {
 	background: white;
 	color: #344051;
-	margin-top: 1em;
+	/*margin-top: 1em;*/
 	margin-right: 0em;
+	margin-bottom: 0em;
 	margin-left: 0em;
 	text-align: center;
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	height: 100%;
 }
 
 
 
 .lightblue {
 	background: #E8F0F5;
-	height: 14em;
-	padding: 3.5em;
-	margin-top: 0em;
+	height: 100%;
+	
+	padding-top: 2em;
 }
 
 .lightblue div {
 	color: #344051;
-	font-size: 1.5em;
+	font-size: 3em;
 	line-height: 1em;
 	text-align: center;
 }
 
 .darkblue {
 	background: #018DBA;
+	width: 50%;
+	margin-left: 6em;
 	height: 4em;
-	margin-top: 4em;
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
@@ -482,12 +561,10 @@ div.smallfont3 {
 }
 
 .white {
-	background: white;
 	height: 2em;
-	margin-top: 0.5em;
-	margin-left: 4em;
-	margin-right: 7em;
+	text-align: center;
 	margin-bottom: 1em;
+	margin-left: 5em;
 	padding-right: 4em;
 
 }
@@ -499,6 +576,10 @@ div.smallfont3 {
 
 .create div {
 	color: white;
+}
+
+.apps {
+	margin-left: 1em;
 }
 
 
