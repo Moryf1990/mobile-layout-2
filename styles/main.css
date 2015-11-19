@@ -86,23 +86,17 @@ header  {
 }
 
 .blue2 {
-	background: #018DBA;
-	height: 2em;
-	text-align: center;
-	font-size: 1em;
-	/*margin-top: 25px;*/
-	/*margin-right: 1.5em;*/
 	box-shadow: 0 0 0 .4em rgba(0,0,0,.2);
-	/*margin-left: 1.5em;*/
-	/*padding: 50px;*/
-	/*padding-left: 2em;
-	padding-right: 2em;*/
-	/*width: 100%;*/
-	margin-right: 3em;
-	padding-bottom: 0.1em;
-	padding-top: 0.5em;
-	margin-top: 1.5em;
-	margin-left: 3em;
+	background: #018DBA;
+	width: 50%;
+	/*margin-left: 6em;*/
+	margin: 0 auto;
+	padding-bottom: -1em;
+	padding-top: 0.7em;
+	height: 3em;
+	margin-top: 1em;
+	/*margin-bottom: 1em;*/
+
 }
 
 .small {
@@ -511,7 +505,7 @@ div.smallfont3 {
 .lightblue {
 	background: #E8F0F5;
 	height: 100%;
-	
+	/*margin-top: 1em;*/
 	padding-top: 2em;
 }
 
@@ -525,10 +519,13 @@ div.smallfont3 {
 .darkblue {
 	background: #018DBA;
 	width: 50%;
-	margin-left: 6em;
+	/*margin-left: 6em;*/
+	margin: 0 auto;
 	height: 4em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	padding-right: 1.5em;
+	/*padding-bottom: 1em;*/
 }
 
 .darkblue div {
