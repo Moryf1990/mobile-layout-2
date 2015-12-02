@@ -132,6 +132,110 @@ header  {
 	background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 750px) {
+	.grey2 {
+		height: 2em;
+		/*background: #33404F;*/
+		width: 7em;
+		margin-left: 0;
+		/*float: right;*/
+		/*margin-left: 30%;*/
+		line-height: 1em;
+		background-image: url("../images/tablet.png");
+		background-repeat: no-repeat;
+	}
+
+	div.grey4 {
+		margin-left: 0;
+		/*float: right;*/
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/newspaper.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+	}
+
+	div.grey6 {
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/paint-brush.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 749px) {
+	.grey2 {
+		height: 2em;
+		/*background: #33404F;*/
+		width: 7em;
+		margin-left: 2em;
+		/*float: right;*/
+		/*margin-left: 30%;*/
+		line-height: 1em;
+		background-image: url("../images/tablet.png");
+		background-repeat: no-repeat;
+	}
+
+	div.grey4 {
+		margin-left: 2em;
+		/*float: right;*/
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/newspaper.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+	}
+
+	div.grey6 {
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/paint-brush.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+		margin-left: 2em;
+	}
+}
+
+@media screen and (max-width: 450px) and (min-width: 400px) {
+	.grey2 {
+		height: 2em;
+		/*background: #33404F;*/
+		width: 7em;
+		margin-left: -1em;
+		/*float: right;*/
+		/*margin-left: 30%;*/
+		line-height: 1em;
+		background-image: url("../images/tablet.png");
+		background-repeat: no-repeat;
+	}
+
+	div.grey4 {
+		margin-left: -1em;
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/newspaper.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+	}
+
+	div.grey6 {
+		height: 2em;
+		background-repeat: no-repeat;
+		background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/paint-brush.png?raw=true");
+		/*background: #33404F;*/
+		width: 7em;
+		/*float: right;*/
+		margin-left: -1em;
+	}
+}
+
 .grey2 div {
 	font-size: 0.5em;
 	line-height: 1em;
